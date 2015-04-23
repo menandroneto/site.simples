@@ -1,8 +1,13 @@
+<?php 
+	require_once("rotas.php");
+	VerificaRota();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
 		<title>
-			Título			
+			Título
 		</title>
 		<meta charset="UTF-8"/>
 		<link href="css/bootstrap.css" rel="stylesheet">
@@ -11,7 +16,9 @@
 	</head>
 
 	<body>
-		<?php require_once("menu.php"); ?>
+		<?php 
+			require_once("menu.php"); 
+		?>
 
 		<?php
 			if(!isset($_GET['page']))
@@ -19,7 +26,7 @@
 			else 
 			{
 				$FileName = $_GET['page'].".php";
-				if (! file_exists($FileName))
+				if (!file_exists($FileName))
 					$FileName = 'home.php';
 				require_once($FileName);
 			}
