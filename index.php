@@ -1,6 +1,8 @@
 <?php 
-	require_once("rotas.php");
-	VerificaRota();
+	if(!isset($_GET['page'])) {
+		require_once("rotas.php");
+		VerificaRota();
+	}
 ?>
 
 <!DOCTYPE html>

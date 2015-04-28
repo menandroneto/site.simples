@@ -1,12 +1,12 @@
-Descrição da atividade:
+<p>Descrição da atividade:</p>
+<p>
+Ajustando as rotas<br/>
 
-Ajustando as rotas
+Agora que você já possui um site simples e funcional com PHP, utilize os conhecimentos passados nesse capítulo para redirecionar todos os requests para seu index.php.<br/>
 
-Agora que você já possui um site simples e funcional com PHP, utilize os conhecimentos passados nesse capítulo para redirecionar todos os requests para seu index.php.
+Logo, quando o usuário acessar site.com.br/contato, deverá ser chamada a página de contato.<br/>
 
-Logo, quando o usuário acessar site.com.br/contato, deverá ser chamada a página de contato.
-
-REGRAS:
+REGRAS:<br/>
 
 <ul>
 	<li>Você deverá verificar sempre se o arquivo acessado existe</li>
@@ -14,3 +14,4 @@ REGRAS:
 	<li>Crie uma função para fazer a verificação das rotas</li>
 	<li>Registre cada uma das rotas em um array</li>
 </ul>
+</p>
